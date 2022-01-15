@@ -68,3 +68,59 @@ img {
     max-width: 300px;
     padding-right: 50px;
 }
+.information {
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+.box {
+    border: #3882f6 3px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
+h2 {
+    margin:0;
+    text-align: center;
+    padding: 20px;
+}
+.box-container {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.under-box-container {
+    display: flex;
+    justify-content: center;
+    width: inherit;
+}
+.under-box-text {
+    align-content: center;
+    margin: auto 10px;
+    max-width: 100px;
+    flex-basis: 0;
+}
+/* Cant figure out how to get the p to align under the boxes! */
+
+.quote-section {
+    background-color: #e5e7eb;
+    font-family: inherit;
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+    margin: 0;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Thor {
+    align-self: flex-end;
+    color: black;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
