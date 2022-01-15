@@ -12,8 +12,9 @@ div {
     background-color: #1f2937;
     color: #f9faf8;
     justify-content: space-between;
-    padding-right: 200px;
-    padding-left: 200px;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
     margin: 0%;
     
 }
@@ -37,8 +38,9 @@ li {
     display: flex;
     background-color: #1f2937;
     color: #e5e7eb;
-    padding: 50px 200px 150px;
+    padding: 50px 50px 150px;
     margin: 0;
+    justify-content: center;
 }
 .hero-content {
     max-width: 400px;
@@ -47,7 +49,7 @@ li {
 h1 {
     color: #f9fafe;  
 }
-button {
+.button1 {
     display: block;
     background-color: #3882f6;
     color: #f9faf8;
@@ -58,12 +60,7 @@ button {
     border-radius: 8px;
     margin-top: 5px;
 }
-/* delete below when complete */
-.img-placeholder {
-    min-width: 300px;
-    background-color: grey;
-}
-/* delete above when complete */
+
 img {
     max-width: 300px;
     padding-right: 50px;
@@ -72,6 +69,7 @@ img {
     background-color: white;
     margin: 0;
     padding: 10px;
+    padding-bottom: 150px;
 }
 .box {
     border: #3882f6 3px solid;
@@ -80,6 +78,7 @@ img {
     border-radius: 10px;
     flex-wrap: nowrap;
     margin: 10px;
+    margin-bottom: 0;
 }
 h2 {
     margin:0;
@@ -88,6 +87,7 @@ h2 {
 }
 .box-container {
     padding: 50px;
+    padding-bottom: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -96,14 +96,17 @@ h2 {
     display: flex;
     justify-content: center;
     width: inherit;
+    column-gap: 8px;
+    
 }
 .under-box-text {
-    align-content: center;
+   
     margin: auto 10px;
-    max-width: 100px;
-    flex-basis: 0;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+
 }
-/* Cant figure out how to get the p to align under the boxes! */
 
 .quote-section {
     background-color: #e5e7eb;
@@ -123,4 +126,62 @@ h2 {
     font-style: normal;
     font-size: 20px;
     font-weight: bold;
+}
+.signUpContainer {
+    display: flex;
+    background-color: white;
+    margin: 0;
+    padding: 100px 200px;
+    justify-content: center;
+}
+.callToActionContainer {
+    background-color: #3882f6;
+    font-family: inherit;
+    border-radius: 8px;
+    flex-shrink: 0;
+    min-width: 850px;
+    color: white;
+    font-family: inherit;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    }
+.callToActionText {
+        margin-left: 150px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+#callToAction {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+#signUpFor {
+    margin-top: 0;
+}
+.button2 {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.buttondiv {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 10px 200px;
+    margin: 0
 }
